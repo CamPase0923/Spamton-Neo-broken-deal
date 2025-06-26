@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<title>Spamton NEO: Broken Deal</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="game-container">
+    <canvas id="game-canvas" width="640" height="480"></canvas>
+
+    <div id="ui-container">
+      <div id="dialogue-box">
+        <p id="dialogue-text"></p>
+      </div>
+      <div id="menu">
+        <button id="btn-fight">FIGHT</button>
+        <button id="btn-act">ACT</button>
+        <button id="btn-item">ITEM</button>
+        <button id="btn-mercy">MERCY</button>
+      </div>
+      <div id="deal-choice" class="hidden">
+        <p>Do you accept the deal?</p>
+        <button id="btn-deal-yes">YES</button>
+        <button id="btn-deal-no">NO</button>
+      </div>
+      <div id="virtual-joystick">
+        <div id="stick"></div>
+      </div>
+    </div>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
